@@ -2,7 +2,7 @@
 {
   public class ShoppingCart<T> : IEnumerable<T> where T : Item
   {
-    T[]? InternalStorage = new T[2];
+    T[] InternalStorage = new T[2];
 
     int FirstOpenSlot = 0;
 
